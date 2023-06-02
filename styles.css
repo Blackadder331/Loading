@@ -809,7 +809,7 @@ header {
   position: absolute;
   left: 0;
   top: 0;
-  background: #1d80ff;
+  background: #bbbbbb;
   width: 16px;
   height: 16px;
   transform: translate(-50%, 50%);
@@ -818,7 +818,7 @@ header {
 .loader-35:before {
   left: auto;
   right: 0;
-  background: #f1f1f1;
+  background: #bbb;
   transform: translate(50%, 100%);
 }
 
@@ -1571,7 +1571,7 @@ header {
   content: "";
   width: 0;
   height: 4.8px;
-  background: #00f3ce;
+  background: #1d80ff;
   position: absolute;
   top: 0;
   left: 0;
@@ -3296,29 +3296,29 @@ header {
 @-webkit-keyframes shadowPulse {
   33% {
     background: #f1f1f1;
-    box-shadow: -24px 0 #00f3ce, 24px 0 #f1f1f1;
+    box-shadow: -24px 0 #1d80ff, 24px 0 #f1f1f1;
   }
   66% {
-    background: #00f3ce;
+    background: #1d80ff;
     box-shadow: -24px 0 #f1f1f1, 24px 0 #f1f1f1;
   }
   100% {
     background: #f1f1f1;
-    box-shadow: -24px 0 #f1f1f1, 24px 0 #00f3ce;
+    box-shadow: -24px 0 #f1f1f1, 24px 0 #1d80ff;
   }
 }
 @keyframes shadowPulse {
   33% {
     background: #f1f1f1;
-    box-shadow: -24px 0 #00f3ce, 24px 0 #f1f1f1;
+    box-shadow: -24px 0 #1d80ff, 24px 0 #f1f1f1;
   }
   66% {
-    background: #00f3ce;
+    background: #1d80ff;
     box-shadow: -24px 0 #f1f1f1, 24px 0 #f1f1f1;
   }
   100% {
     background: #f1f1f1;
-    box-shadow: -24px 0 #f1f1f1, 24px 0 #00f3ce;
+    box-shadow: -24px 0 #f1f1f1, 24px 0 #1d80ff;
   }
 }
 @-webkit-keyframes shadowRolling {

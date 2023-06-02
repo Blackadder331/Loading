@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  padding-top: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100vw;
+
+  height: 100vh;
+
+  overflow-y: scroll;
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(3rem);
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  min-height: 100vh;
+  scroll-snap-align: start;
+  display: grid;
+  margin: auto;
+}
+
